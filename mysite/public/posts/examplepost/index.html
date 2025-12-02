@@ -1,0 +1,37 @@
+<h1>Hello World</h1>
+---<br>
+<strong>Author:</strong> coolapso<br>
+<strong>Date:</strong> June 18, 2025<br>
+---<br>
+<br>
+
+Hello world, welcome to your temrinal cv with blogging skills!
+
+<br>
+<br>
+<h1 id="creating-posts">Creating posts!</h1>
+<p>This hugo theme supports posts, you can write your posts in markdown then they will be rendered in markdown and shown by the <code>cat &lt;postname&gt;</code>  command</p>
+<h2 id="markdown-elements">markdown elements</h2>
+<p>All markdown elements will be rendered to html by hugo</p>
+<h3 id="how-do-i-create-a-post">How do I create a post?</h3>
+<p>You can create a post by placing your post in <code>content/postname/index.md</code>, generate the website and your good to go, now the visitors of your website can then get your post by doing <code>cat yourpost</code> and the post will be shown in your terminal.</p>
+<h3 id="how-do-users-find-available-posts">How do users find available posts?</h3>
+<p>With the command <code>posts</code> the command posts should list all the posts available for the users to <code>cat</code></p>
+<figure><a href="posts/examplepost/images/terminal.png"><img src="posts/examplepost/images/terminal.png"
+    alt="terminal" width="200"></a><figcaption>
+      <p>terminal image</p>
+    </figcaption>
+</figure>
+
+<p>images are also supported, create a <code>images</code> dir inside your <code>postname</code> dir, and place the images there. To load the image it will work just like writing any markdown document, example: <code> [![terminal](images/terminal.png)](images/terminal.png)</code></p>
+<p>or you  if you need more controle you can use hugo <code>figure</code> shortcode:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; figure
+</span></span><span style="display:flex;"><span>  src=&#34;posts/examplepost/images/terminal.png&#34;
+</span></span><span style="display:flex;"><span>  alt=&#34;terminal&#34;
+</span></span><span style="display:flex;"><span>  link=posts/examplepost/images/terminal.png&#34;
+</span></span><span style="display:flex;"><span>  caption=&#34;terminal image&#34;
+</span></span><span style="display:flex;"><span>  width=&#34;200&#34;
+</span></span><span style="display:flex;"><span>&gt;}}
+</span></span></code></pre></div><h3 id="example">Example</h3>
+<p>You can always look at the exampleSite dir in the template repository where this post is located</p>
+
