@@ -113,7 +113,7 @@ params:
 
   education:
     details:
-      - courseName: electronics & telecommunications engineering 
+      - courseName: ECE 
         color: lime
         date: undergrad since 2025
         description: i like the way this sucks
